@@ -57,15 +57,17 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2.5 text-sm text-slate-400">
                 <Mail className="w-4 h-4 text-orange-300" />
-                support@carreaders.ai
+                info@autoscanora.com
               </li>
               <li className="flex items-center gap-2.5 text-sm text-slate-400">
                 <Phone className="w-4 h-4 text-orange-300" />
-                +44 20 1234 5678
+                +447555979712
               </li>
               <li className="flex items-start gap-2.5 text-sm text-slate-400">
-                <MapPin className="w-4 h-4 text-orange-300 mt-0.5" />
-                 NA, 286 Nakhlath, Haji Malak Goth Gadap Town, Karachi
+                <MapPin className="w-10 text-orange-300 mt-0.5" />
+                SIU OFFICES, 4-6 GREATOREX STREET
+                LONDON
+                UNITED KINGDOM E1 5NF
               </li>
             </ul>
           </div>

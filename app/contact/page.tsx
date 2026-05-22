@@ -75,10 +75,10 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <div className="space-y-4">
             {[
-              { icon: Mail, label: 'Email Address', value: 'support@autoscanora.com' },
-              { icon: Phone, label: 'Call Us', value: '+91 99999 99999' },
-              { icon: MapPin, label: 'Location', value: 'India-based remote support' },
-              { icon: Clock, label: 'Support Hours', value: 'Monday to Friday, 9:00 AM - 6:00 PM IST' },
+              { icon: Mail, label: 'Email Address', value: 'info@autoscanora.com' },
+              { icon: Phone, label: 'Call Us', value: '+44 7555979712' },
+              { icon: MapPin, label: 'Location', value: 'SIU OFFICES, 4-6 GREATOREX STREET LONDON UNITED KINGDOM E1 5NF' },
+              { icon: Clock, label: 'Support Hours', value: 'Monday to Saturday 24 Hours' },
             ].map((item, i) => (
               <motion.div key={item.label} initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: i * 0.1 }} className="p-5 rounded-xl glass border border-slate-800 shadow-[0_20px_80px_rgba(0,0,0,0.45)] flex items-start gap-4">
                 <div className="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center shrink-0">
